@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.18.0",
     "mocha": "^8.2.1"
   }
 }
