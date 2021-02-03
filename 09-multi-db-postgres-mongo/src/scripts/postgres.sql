@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS TB_HEROIS;
+CREATE TABLE TB_HEROIS (
+    ID INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY NOT NULL,
+    NOME TEXT NOT NULL,
+    PODER TEXT NOT NULL,
+)
+
+INSERT INTO TB_HEROIS (NOME, PODER)
+VALUE
+    ('Flash', 'Velocidade'),
+    ('Aquaman', 'Falar com animais'),
+    ('Batman', 'Dinheiro')
