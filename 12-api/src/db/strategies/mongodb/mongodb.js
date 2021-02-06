@@ -1,5 +1,5 @@
 const Mongoose = require('mongoose')
-const ICrud = require('./../interfaces/iCrud')
+const ICrud = require('../interfaces/iCrud')
 
 const STATUS = {
     0: 'Disconectado',

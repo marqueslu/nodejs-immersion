@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize')
 
-const ICrud = require('./../interfaces/iCrud')
+const ICrud = require('../interfaces/iCrud')
 
 class Postgres extends ICrud {
     constructor(connection, schema) {
